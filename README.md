@@ -13,7 +13,7 @@ Each stat (HP and MP) has its own settings:
 | **Regen** | Off / Normal attack (heals the attacker) / Turn start | Turn start |
 | **Amount as** | % of max / fixed points (do not grow with the level) | HP: % of max, MP: points |
 | **Per regen** | 1–100 | 5 |
-| **Chance** | 10, 20, 30, 33, 40, 50, 60, 66, 70, 80, 90, 100 % | 50 % |
+| **Chance** | 10, 20, 30, 33, 40, 50, 60, 66, 70, 80, 90, 100 % | 33 % |
 
 You change the settings in the game (main menu → **Mods** → **Regeneration**), and they work with a controller. They are saved in `config.ini` next to the plugin, which you can also edit by hand.
 
