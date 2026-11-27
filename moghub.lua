@@ -43,7 +43,7 @@ local cfg = mod:settings{
       help = "Share of max HP, or a fixed number of HP that does not grow with the level." },
     { key = "PercentHP", label = "HP per regen", type = "number", min = 1, max = 100, step = 1, default = 5,
       format = "%g %%", help = "HP restored each time." },
-    { key = "ChanceHP", label = "HP chance", type = "choice", default = 50, choices = CHANCES,
+    { key = "ChanceHP", label = "HP chance", type = "choice", default = 33, choices = CHANCES,
       help = "Chance that the regen happens each time." },
     { key = "ModeMP", label = "MP regen", type = "choice", default = TURN, choices = MODES,
       help = "Off, with each normal attack (the attacker), or at the start of each character's turn." },
@@ -51,7 +51,7 @@ local cfg = mod:settings{
       help = "Share of max MP, or a fixed number of MP that does not grow with the level." },
     { key = "PercentMP", label = "MP per regen", type = "number", min = 1, max = 100, step = 1, default = 5,
       format = "%g %%", help = "MP restored each time." },
-    { key = "ChanceMP", label = "MP chance", type = "choice", default = 50, choices = CHANCES,
+    { key = "ChanceMP", label = "MP chance", type = "choice", default = 33, choices = CHANCES,
       help = "Chance that the regen happens each time." },
 }
 
